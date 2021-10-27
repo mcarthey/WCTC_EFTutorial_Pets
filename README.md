@@ -2,6 +2,7 @@
 
 ## Sample commands
 ````
+dotnet tool update --global dotnet-ef
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.Extensions.Configuration.Json
 dotnet ef migrations add InitialCreate
